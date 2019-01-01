@@ -8,3 +8,4 @@ import 'bootstrap/dist/css/custom.css';
 import './main.html';
 import './layout/topbar.html';
 import './layout/home.html';
+import './layout/footer.html';
