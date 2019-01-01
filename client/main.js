@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 import './main.html';
+import './layout/topbar.html';
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
