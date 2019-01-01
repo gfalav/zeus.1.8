@@ -1,20 +1,22 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<template name="mainTemplate">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  
-  <title>Zeus.1.8</title>
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    
+    <title>Zeus.1.8</title>
+  </head>
 
-<body>
-  <div class="container-fluid">
-    {{> topbar }}
-  </div>
+  <body>
+    <div class="container-fluid">
+      {{> Template.dynamic template=top}}
+    </div>
 
-  <div class="container-fluid">
+    <div class="container-fluid">
 
-      {{> home }}
+        {{> Template.dynamic template=main}}
 
-  </div>
-</body>
+    </div>
+  </body>
+</template>
